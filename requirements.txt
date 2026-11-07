@@ -1,0 +1,2 @@
+flask>=3.0  # optional, only for `sentinel serve`
+pytest>=8   # tests
