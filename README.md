@@ -2,6 +2,17 @@
 
 Sentinel reads login logs, finds attack patterns, stores incidents in SQLite, and produces reports and a web dashboard for reviewing alerts.
 
+![Dashboard showing detected incidents by severity](docs/screenshot.jpg)
+
+## My role & contributions
+
+**Solo developer · AI-assisted**
+
+- Chose the project and the six attack patterns to detect, and set the detection thresholds and severity levels
+- Designed the SQLite schema that links each incident to its evidence
+- Ran the detector against generated attack logs and checked it found all 4 attacks with zero false alarms on clean traffic
+- Wrote the README, detection-logic notes, and roadmap
+
 **Languages:** Python · SQL (SQLite) · HTML/CSS
 **Shows:** practical cybersecurity detection logic, log parsing, database design, testing.
 
