@@ -9,7 +9,7 @@
 - [x] Dashboard for reviewing alerts (Flask)
 - [x] 13 automated tests, including a zero-false-positive check on clean data
 
-## Next
+## Planned improvements
 - [ ] GeoIP / ASN enrichment and "impossible travel" detection
 - [ ] Windows Security Event Log (4624/4625) parser
 - [ ] Live tail mode (`sentinel watch /var/log/auth.log`)
